@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nandana Arun - B.Com CPA</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ff9a8b 0%, #ff6a88 100%);
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    .container {
+      max-width: 950px;
+      margin: auto;
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+      text-align: left;
+      margin-bottom: 2rem;
+      overflow: auto;
+    }
+
+    .profile-photo {
+      float: left;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-right: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      object-fit: cover;
+    }
+
+    .header h1 {
+      background: linear-gradient(90deg, #ff6a88, #d4a5a5);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    .header p {
+      font-style: italic;
+      color: #555;
+      margin-top: 0.2rem;
+    }
+
+    .accordion-section {
+      margin-bottom: 1.2rem;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #f9f9f9;
+      border-left: 6px solid #ff6a88;
+      transition: all 0.3s ease;
+    }
+
+    .accordion-header {
+      background: linear-gradient(90deg, #ff6a88, #d4a5a5);
+      color: #333;
+      padding: 1rem;
+      cursor: pointer;
+      user-select: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    .accordion-header span.icon {
+      font-size: 1.2rem;
+      transition: transform 0.3s ease;
+    }
+
+    .accordion-content {
+      max-height: 0;
+      overflow: hidden;
+      padding: 0 1rem;
+      transition: max-height 0.4s ease, padding 0.4s ease;
+      background: #fffaf2;
+    }
+
+    .accordion-section.active .accordion-content {
+      max-height: 500px;
+      padding: 1rem;
+    }
+
+    .accordion-section.active .accordion-header .icon {
+      transform: rotate(180deg);
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    h4 {
+      margin-top: 0;
+    }
+
+    .emoji {
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <!-- Image source: profile.jpg located in the same folder -->
+      <img src="profile.jpg" alt="Profile Photo" class="profile-photo" />
+      <h1>Nandana Arun</h1>
+      <p>📘 B.Com Student | Currently Pursuing CPA | Passionate Photography Enthusiast | Capturing Moments, Creating Stories</p>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">
+        <span><span class="emoji">📞</span>Contact</span>
+        <span class="icon">▼</span>
+      </div>
+      <div class="accordion-content">
+        <p>Email: nandana.arun005@gmail.com</p>
+        <p>Phone: +91 91487 49610</p>     
+        <p>LinkedIn: linkedin.com/in/nandana-arun</p>
+      </div>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">
+        <span><span class="emoji">🧑‍💼</span>Profile</span>
+        <span class="icon">▼</span>
+      </div>
+      <div class="accordion-content">
+        <p>A dynamic and detail-oriented professional with hands-on experience in event planning and execution. Known for managing multiple tasks efficiently, leading high-performing teams, and delivering impactful events. Proven ability to build strong relationships with stakeholders, manage logistics end-to-end, and thrive in fast-paced environments. Currently expanding business and analytical skills through B.Com CPA and BBA DBE programs.</p>
+      </div>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">
+        <span><span class="emoji">🎓</span>Education</span>
+        <span class="icon">▼</span>
+      </div>
+      <div class="accordion-content">
+        <h4>Kristu Jayanti College, Bangalore</h4>
+        <p>Bachelor of Commerce (CPA) – Pursuing | 2022 – Present</p>
+        
+        <h4>Indian Institute of Management Bangalore (IIMB)</h4>
+        <p>BBA in Digital Business and Entrepreneurship – Certificate Course | Ongoing</p>
+        
+        <h4>Shishya BEML Public School, Bangalore</h4>
+        <p>Higher Secondary Education (Commerce) | 2020 – 2022</p>
+        
+        <h4>Global City International School, Bangalore</h4>
+        <p>Secondary Education | Graduated 2020</p>
+      </div>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">
+        <span><span class="emoji">💪</span>Key Strengths</span>
+        <span class="icon">▼</span>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          <li><strong>Event Planning & Execution</strong>: Organized and executed 10+ school and college-level events, ensuring timely delivery and positive audience feedback.</li>
+          <li><strong>Team Leadership</strong>: Led cross-functional teams, promoting collaboration and accountability throughout event lifecycles.</li>
+          <li><strong>Time Management</strong>: Skilled at juggling multiple deadlines while maintaining high-quality output.</li>
+          <li><strong>Attention to Detail</strong>: Delivered flawless execution of event logistics including décor, venue, catering, and client communications.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">
+        <span><span class="emoji">🛠️</span>Skills</span>
+        <span class="icon">▼</span>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          <li>Event Coordination & Logistics</li>
+          <li>Team Management</li>
+          <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+          <li>Google Workspace Tools</li>
+          <li>Canva (for Posters & Presentations)</li>
+          <li>Communication & Public Speaking</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">
+        <span><span class="emoji">🚀</span>Projects & Initiatives</span>
+        <span class="icon">▼</span>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          <li><strong>Annual School Fest Coordinator</strong> – Led the planning and execution of a large-scale event with 500+ attendees.</li>
+          <li><strong>Budget Head for College Fest</strong> – Managed vendor negotiations, logistics, and budgeting, reducing costs by 15%.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">
+        <span><span class="emoji">🌏</span>Languages</span>
+        <span class="icon">▼</span>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          <li><strong>English</strong> – Fluent</li>
+          <li><strong>Malayalam</strong> – Native</li>
+          <li><strong>Hindi</strong> – Conversational</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const headers = document.querySelectorAll('.accordion-header');
+    headers.forEach(header => {
+      header.addEventListener('click', () => {
+        const section = header.parentElement;
+        section.classList.toggle('active');
+      });
+    });
+  </script>
+</body>
+</html>
